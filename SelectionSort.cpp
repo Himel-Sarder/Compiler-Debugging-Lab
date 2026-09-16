@@ -1,6 +1,46 @@
 #include <iostream>
 using namespace std;
 
+/*
+Iteration 0
+============
+i j
+| |
+7 2 1 4 3
+---------
+0 1 2 3 4
+|
+minIndex
+
+Iteration 1
+============
+i   j
+|   |
+7 2 1 4 3
+---------
+0 1 2 3 4
+|
+minIndex
+
+i   j
+|   |
+7 2 1 4 3
+---------
+0 1 2 3 4
+    |
+minIndex
+
+Iteration 2
+============
+  i j
+  | |
+1 2 7 4 3
+---------
+0 1 2 3 4
+  |
+minIndex
+*/
+
 int main()
 {
     int n;
